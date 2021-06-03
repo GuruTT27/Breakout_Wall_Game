@@ -173,7 +173,7 @@ function setup() {
 function draw() {
   background(0);
 
-  paddle.x = ball.x
+  // paddle.x = ball.x
 
   if(frameCount <200){
 
