@@ -410,7 +410,7 @@ function deductLife(){
 
       brickHitSound.play();
       ball.bounceOff(b10);
-      b4.destroy();
+      b10.destroy();
       score +=1;
   
     }
