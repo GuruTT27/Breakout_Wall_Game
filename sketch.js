@@ -173,6 +173,8 @@ function setup() {
 function draw() {
   background(0);
 
+  paddle.x = ball.x
+
   if(frameCount <200){
 
     wa = createSprite(230,400,10,60);
@@ -380,7 +382,7 @@ function deductLife(){
     if(ball.isTouching(b7)){
 
       brickHitSound.play();
-      ball.bounceOff(b77);
+      ball.bounceOff(b7);
       b7.destroy();
       score +=1;
   
